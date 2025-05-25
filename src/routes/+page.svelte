@@ -11,7 +11,7 @@
         if (document.getElementById("insulin_drop").value == 1) { // latnus, pen, U100
             result = String((units_per_day * num_days) / 100);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -22,7 +22,7 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 2:
         // (latnus, vial, u100), (levemir, vial, u100), (humalog, vial, u100), (lyumjev, vial, u100),
         // (admelog, vial, u100), (novolog, vial, u100), (fiasp, vial, u100), (apidra, vial, u100),
@@ -30,7 +30,7 @@
         } else if (document.getElementById("insulin_drop").value == 2) {
             result = String((units_per_day * num_days) / 100);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -41,13 +41,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 3:
         // (toujeo, pen, u300)
         } else if (document.getElementById("insulin_drop").value == 3) {
             result = String((units_per_day * num_days) / 300);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -58,13 +58,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 4:
         // (toujeo, max pen, u300)
         } else if (document.getElementById("insulin_drop").value == 4) {
             result = String((units_per_day * num_days) / 300);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -75,13 +75,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 5:
         // (humalog, pen, u200), (lyumjev, pen, u200)
         } else if (document.getElementById("insulin_drop").value == 5) {
             result = String((units_per_day * num_days) / 200);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -92,13 +92,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 6:
         // (U-500, vial, u500)
         } else if (document.getElementById("insulin_drop").value == 6) {
             result = String((units_per_day * num_days) / 500);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -109,13 +109,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 7:
         // (U-500, pen, u500)
         } else if (document.getElementById("insulin_drop").value == 7) {
             result = String((units_per_day * num_days) / 500);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -126,13 +126,13 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 8:
         // (tresiba, pen, u200)
         } else if (document.getElementById("insulin_drop").value == 8) {
             result = String((units_per_day * num_days) / 200);
             document.getElementById("calc_result").innerHTML = "";
-            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL";
+            document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
 
             document.getElementById("to_order").innerHTML = "";
             while (true) {
@@ -143,17 +143,17 @@
                     boxes++;
                 }
             }
-            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL";
+            document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         }
     }
 </script>
 
-<h1>Insulin Calculator App</h1>
+<h1>Insulin Prescribing Calculator</h1>
 <p>
-    Welcome to the insulin calculator app! <br />
+    Welcome to the insulin prescribing calculator! <br />
     <u>Step 1</u>: Use the leftmost dropdown to select the brand, form, and concentration of insulin desired. <br />
-    <u>Step 2:</u> Use the middle dropdown to select the desired supply. <br />
-    <u>Step 3:</u> Use the right text box to enter the desired units per day (in integers) <br />
+    <u>Step 2:</u> Use the dropdown in the middle to select the desired supply. <br />
+    <u>Step 3:</u> Use the text box on the right to enter the desired units per day. <br />
     <b>NOTE: Information will appear as soon as a change is made to the default values below!</b>
 </p>
 
@@ -182,8 +182,8 @@
         <option id="opt21", value=2>Semglee, Vial, U-100</option>
         <option id="opt22", value=3>Toujeo, Pen, U-300</option>
         <option id="opt23", value=4>Toujeo, Max Pen, U-300</option>
-        <option id="opt24", value=8>Tresiba, Pen, U-200</option>
-        <option id="opt25", value=1>Tresiba, Pen, U-100</option>
+        <option id="opt24", value=1>Tresiba, Pen, U-100</option>
+        <option id="opt25", value=8>Tresiba, Pen, U-200</option>
         <option id="opt26", value=2>Tresiba, Vial, U-100</option>
         <option id="opt27", value=6>U-500, Vial</option>
         <option id="opt28", value=7>U-500, Pen</option>
@@ -199,3 +199,13 @@
 
 <p id="calc_result"></p>
 <p id="to_order"></p>
+
+<style>
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    p, select, input {
+        font-size: 20px;
+    }
+</style>
