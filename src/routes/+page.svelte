@@ -5,10 +5,10 @@
         let result = 0, order = 0, boxes = 1.0;
 
         // The following have value 1:
-        // (latnus, pen, u100), (basaglar, pen, u100), (levemir, pen, u100), (humalog, pen, u100),
+        // (lantus, pen, u100), (basaglar, pen, u100), (levemir, pen, u100), (humalog, pen, u100),
         // (lyumjev, pen, u100), (admelog, pen, u100), (novolog, pen, u100), (fiasp, pen, u100),
         // (apidra, pen, u100), (tresiba, pen, u100), (semglee, pen, u100)
-        if (document.getElementById("insulin_drop").value == 1) { // latnus, pen, U100
+        if (document.getElementById("insulin_drop").value == 1) { // lantus, pen, U100
             result = String((units_per_day * num_days) / 100);
             document.getElementById("calc_result").innerHTML = "";
             document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
@@ -24,7 +24,7 @@
             }
             document.getElementById("to_order").innerHTML = "The amount of insulin that needs to be ordered is " + order + " mL.";
         // The following have value 2:
-        // (latnus, vial, u100), (levemir, vial, u100), (humalog, vial, u100), (lyumjev, vial, u100),
+        // (lantus, vial, u100), (levemir, vial, u100), (humalog, vial, u100), (lyumjev, vial, u100),
         // (admelog, vial, u100), (novolog, vial, u100), (fiasp, vial, u100), (apidra, vial, u100),
         // (tresiba, vial, u100), (semglee, vial, u100)
         } else if (document.getElementById("insulin_drop").value == 2) {
@@ -169,8 +169,8 @@
         <option id="opt8", value=1>Humalog, Pen, U-100</option>
         <option id="opt9", value=2>Humalog, Vial, U-100</option>
         <option id="opt10", value=5>Humalog, Pen, U-200</option>
-        <option id="opt11", value=1>Latnus, Pen, U-100</option>
-        <option id="opt12", value=2>Latnus, Vial, U-100</option>
+        <option id="opt11", value=1>Lantus, Pen, U-100</option>
+        <option id="opt12", value=2>Lantus, Vial, U-100</option>
         <option id="opt13", value=1>Levemir, Pen, U-100</option>
         <option id="opt14", value=2>Levemir, Vial, U-100</option>
         <option id="opt15", value=1>Lyumjev, Pen, U-100</option>
