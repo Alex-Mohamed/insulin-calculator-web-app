@@ -153,7 +153,7 @@
     Welcome to the insulin prescribing calculator! <br />
     <u>Step 1</u>: Use the leftmost dropdown to select the brand, form, and concentration of insulin desired. <br />
     <u>Step 2:</u> Use the dropdown in the middle to select the desired supply. <br />
-    <u>Step 3:</u> Use the text box on the right to enter the desired units per day. <br />
+    <u>Step 3:</u> Use the text box on the right to enter the desired units per day, and then press tab (pressing enter will reset the calculator). <br />
     <b>NOTE: Information will appear as soon as a change is made to the default values below!</b>
 </p>
 
@@ -181,7 +181,7 @@
         <option id="opt20", value=1>Semglee, Pen, U-100</option>
         <option id="opt21", value=2>Semglee, Vial, U-100</option>
         <option id="opt22", value=3>Toujeo, Pen, U-300</option>
-        <option id="opt23", value=4>Toujeo, Max Pen, U-300</option>
+        <option id="opt23", value=4>Toujeo Max, Pen, U-300</option>
         <option id="opt24", value=1>Tresiba, Pen, U-100</option>
         <option id="opt25", value=8>Tresiba, Pen, U-200</option>
         <option id="opt26", value=2>Tresiba, Vial, U-100</option>
