@@ -185,8 +185,8 @@
         <option id="opt24", value=1>Tresiba, Pen, U-100</option>
         <option id="opt25", value=8>Tresiba, Pen, U-200</option>
         <option id="opt26", value=2>Tresiba, Vial, U-100</option>
-        <option id="opt27", value=6>U-500, Vial</option>
-        <option id="opt28", value=7>U-500, Pen</option>
+        <option id="opt27", value=7>U-500, Pen</option>
+        <option id="opt28", value=6>U-500, Vial</option>
     </select>
 
     <select id="num_days" on:change={calculate}>
