@@ -10,7 +10,7 @@
             // The following have value 1:
             // (lantus, pen, u100), (basaglar, pen, u100), (levemir, pen, u100), (humalog, pen, u100),
             // (lyumjev, pen, u100), (admelog, pen, u100), (novolog, pen, u100), (fiasp, pen, u100),
-            // (apidra, pen, u100), (tresiba, pen, u100), (semglee, pen, u100)
+            // (apidra, pen, u100), (tresiba, pen, u100), (semglee, pen, u100), (lispro, pen, u100)
             if (document.getElementById("insulin_drop").value == 1) { // lantus, pen, U100
                 result = String((units_per_day * num_days) / 100);
                 document.getElementById("calc_result").innerHTML = "";
@@ -29,7 +29,7 @@
             // The following have value 2:
             // (lantus, vial, u100), (levemir, vial, u100), (humalog, vial, u100), (lyumjev, vial, u100),
             // (admelog, vial, u100), (novolog, vial, u100), (fiasp, vial, u100), (apidra, vial, u100),
-            // (tresiba, vial, u100), (semglee, vial, u100)
+            // (tresiba, vial, u100), (semglee, vial, u100), (lispro, vial, u100)
             } else if (document.getElementById("insulin_drop").value == 2) {
                 result = String((units_per_day * num_days) / 100);
                 document.getElementById("calc_result").innerHTML = "";
@@ -161,7 +161,7 @@
     </style>
 </head>
 
-<body>
+<body style="background-color:beige;">
     <h1>Insulin Prescribing Calculator</h1>
     <p>
         Welcome to the insulin prescribing calculator! <br />
@@ -181,26 +181,28 @@
             <option id="opt6", value=1>Fiasp, Pen, U-100</option>
             <option id="opt7", value=2>Fiasp, Vial, U-100</option>
             <option id="opt8", value=1>Humalog, Pen, U-100</option>
-            <option id="opt9", value=2>Humalog, Vial, U-100</option>
-            <option id="opt10", value=5>Humalog, Pen, U-200</option>
+            <option id="opt9", value=5>Humalog, Pen, U-200</option>
+            <option id="opt10", value=2>Humalog, Vial, U-100</option>
             <option id="opt11", value=1>Lantus, Pen, U-100</option>
             <option id="opt12", value=2>Lantus, Vial, U-100</option>
             <option id="opt13", value=1>Levemir, Pen, U-100</option>
             <option id="opt14", value=2>Levemir, Vial, U-100</option>
-            <option id="opt15", value=1>Lyumjev, Pen, U-100</option>
-            <option id="opt16", value=2>Lyumjev, Vial, U-100</option>
-            <option id="opt17", value=5>Lyumjev, Pen, U-200</option>
-            <option id="opt18", value=1>Novolog, Pen, U-100</option>
-            <option id="opt19", value=2>Novolog, Vial, U-100</option>
-            <option id="opt20", value=1>Semglee, Pen, U-100</option>
-            <option id="opt21", value=2>Semglee, Vial, U-100</option>
-            <option id="opt22", value=3>Toujeo, Pen, U-300</option>
-            <option id="opt23", value=4>Toujeo Max, Pen, U-300</option>
-            <option id="opt24", value=1>Tresiba, Pen, U-100</option>
-            <option id="opt25", value=8>Tresiba, Pen, U-200</option>
-            <option id="opt26", value=2>Tresiba, Vial, U-100</option>
-            <option id="opt27", value=7>U-500, Pen</option>
-            <option id="opt28", value=6>U-500, Vial</option>
+            <option id="opt15", value=1>Lispro, Pen, U-100</option>
+            <option id="opt16", value=2>Lispro, Vial, U-100</option>
+            <option id="opt17", value=1>Lyumjev, Pen, U-100</option>
+            <option id="opt18", value=5>Lyumjev, Pen, U-200</option>
+            <option id="opt19", value=2>Lyumjev, Vial, U-100</option>
+            <option id="opt20", value=1>Novolog, Pen, U-100</option>
+            <option id="opt21", value=2>Novolog, Vial, U-100</option>
+            <option id="opt22", value=1>Semglee, Pen, U-100</option>
+            <option id="opt23", value=2>Semglee, Vial, U-100</option>
+            <option id="opt24", value=3>Toujeo, Pen, U-300</option>
+            <option id="opt25", value=4>Toujeo Max, Pen, U-300</option>
+            <option id="opt26", value=1>Tresiba, Pen, U-100</option>
+            <option id="opt27", value=8>Tresiba, Pen, U-200</option>
+            <option id="opt28", value=2>Tresiba, Vial, U-100</option>
+            <option id="opt29", value=7>U-500, Pen</option>
+            <option id="opt30", value=6>U-500, Vial</option>
         </select>
 
         <select id="num_days" onchange="calculate()">
