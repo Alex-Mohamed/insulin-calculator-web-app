@@ -11,7 +11,7 @@
             // (lantus, pen, u100), (basaglar, pen, u100), (levemir, pen, u100), (humalog, pen, u100),
             // (lyumjev, pen, u100), (admelog, pen, u100), (novolog, pen, u100), (fiasp, pen, u100),
             // (apidra, pen, u100), (tresiba, pen, u100), (semglee, pen, u100), (lispro, pen, u100)
-            if (document.getElementById("insulin_drop").value == 1) { // lantus, pen, U100
+            if (document.getElementById("insulin_drop").value == 1) {
                 result = String((units_per_day * num_days) / 100);
                 document.getElementById("calc_result").innerHTML = "";
                 document.getElementById("calc_result").innerHTML = "The amount of insulin needed is " + result + " mL.";
